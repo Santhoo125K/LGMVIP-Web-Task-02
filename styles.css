@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, rgb(64, 124, 176),white);
+    /* background-color: aqua; */
+}
+
+.logo {
+    font-size: 30px;
+    color: aqua;
+    /*color: #0766ff;*/
+    padding: 0px 60px;
+    text-align: center;
+
+}
+
+.calculator {
+    width: 250px;
+    /* background-color: linear-gradient(135deg, grey,#4e085f); */
+    /* background-color: rgb(97, 93, 96); */
+    border-radius: 5px;
+    padding: 15px;
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+#display {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 59px;
+    height: 59px;
+    border-radius: 37%;
+    border: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
